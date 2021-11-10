@@ -1,0 +1,171 @@
+.col-2 {
+	height: 50px;
+}
+
+.font {
+	font-family: helvetica;
+}
+
+.flex  {
+	display: flex;
+}
+
+.col-8 {
+	height: 50px;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	color: #5c16c5;
+}
+
+input {
+	background: #E5E5E5;
+	border: #E5E5E5;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	margin-top: 7px;
+	height: 35px;
+}
+
+input:hover {
+	border: solid 2px #CCCC;
+}
+
+input:focus {
+	background: white;
+	border: solid 2px #5c16c5;
+	outline: none;
+}
+
+.pressbutton {
+	margin-top: 7px;
+}
+
+.tc {
+	text-align: center;
+}
+
+.btn {
+	color: #5c16c5;
+	border: none;
+	margin-bottom: 8px;
+}
+
+.btn:hover {
+	background: #E5E5E5;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.stream {
+  position: relative;
+  display: inline-block;
+  background-color: #9147ff;
+}
+
+.stream:before,
+.stream:after {
+	content: '';
+    display: block;
+    background-color: #9147ff;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    transition: all .15s ease;
+}
+
+.stream:before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(-45deg) scale(0);
+}
+
+.stream:after {
+    right: 0;
+    bottom: 0;
+    transform-origin: bottom right;
+    transform: rotate(45deg) scale(0);
+}
+
+  .stream-thumbnail {
+    display: block;
+    transform: translate(0, 0);
+    transition: all .15s ease;
+    position: relative;
+    z-index: 10;
+}
+
+.stream:hover .stream-thumbnail {
+  transform: translate(6px, -6px);
+}
+
+.stream:hover:before {
+  transform: rotate(-45deg) scale(1);
+}
+
+.stream:hover:after {
+  transform: rotate(45deg) scale(1);
+}
+
+.bc {
+	background: #EFEFF1;
+}
+
+.upper-buttons {
+	background: #F2F2F2;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: solid 5px #F2F2F2;
+}
+
+.upper-buttons:hover {
+	background: #E5E5E5;
+	border: solid 5px #E5E5E5;
+}
+
+.upper-buttons-enter {
+	background: #F2F2F2;
+	border-radius: 5px;
+	border: solid 5px #F2F2F2;
+}
+
+.upper-buttons-enter:hover {
+	background: #E5E5E5;
+	border: solid 5px #E5E5E5;
+}
+
+.arrow-button {
+	background: #EFEFF1;
+	border: none;
+	padding-left: 5px;
+	margin-top: 0;
+}
+
+.arrow-button:hover {
+	background: #D7D7D8;
+	border: none;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+
+.join {
+	background: #9147ff;
+	border-radius: 5px;
+	border: solid 5px #9147ff;
+	color: white;
+}
+
+.join:hover	{
+	background: #5c16c5;
+	border: none;
+	border-radius: 5px;
+	border: solid 5px #5c16c5;
+}
